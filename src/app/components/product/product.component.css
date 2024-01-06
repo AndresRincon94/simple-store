@@ -1,0 +1,7 @@
+.product-wrapper{
+  @apply flex justify-center flex-wrap gap-4 p-3 w-[200px] rounded shadow-md bg-gray-200;
+}
+
+.image-wrapper{
+  @apply w-[170px] h-[170px] relative rounded overflow-hidden;
+}

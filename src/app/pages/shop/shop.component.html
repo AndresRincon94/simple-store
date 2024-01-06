@@ -1,0 +1,8 @@
+<section>
+  <div class="articles-container">
+    <h1 class="w-[100%] text-center font-bold text-2xl p-6">The Best Products</h1>
+    @for (product of products; track product.id) {
+      <app-product [product]="product"></app-product>
+    }
+  </div>
+</section>

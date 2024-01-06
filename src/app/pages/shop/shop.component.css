@@ -1,0 +1,3 @@
+.articles-container {
+  @apply flex flex-wrap justify-between max-w-[1200px] mx-auto px-4 gap-3;
+}

@@ -1,0 +1,14 @@
+@if (product) {
+  <div class="product-wrapper">
+    <h3 class="font-bold">{{ product.title }}</h3>
+    <div class="image-wrapper">
+      <img [ngSrc]="product.images[0]" alt="product.title" fill>
+    </div>
+    <hr>
+    <p>${{ product.price }}</p>
+  </div>
+} @else {
+  <div>
+    <span>Product not found</span>
+  </div>
+}
